@@ -1,0 +1,31 @@
+body,
+h1 {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+h1 { 
+    text-align: center;
+}
+body { 
+    background-color: #ffebde;
+}
+#logo { 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3em;
+    margin-bottom: 0px;
+    width: 50%;
+}
+.btn-outline-primary { 
+    color: #24bae8;
+    border-color: #24bae8;
+    margin: 1em;
+}
+.btn-outline-primary:hover {
+    color: #fff;
+    background-color: #24bae8;
+    border-color: #24bae8;
+}
+.container { 
+    text-align: center;
+}

@@ -8,9 +8,12 @@
 import React from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
-
+import GatsbyIcon from '../images/gatsby-icon.png'
+import GithubIcon from '../images/github-icon.png'
+import NetlifyIcon from '../images/netlify-icon.png'
+import NamecheapIcon from '../images/namecheap-icon.png'
 import Header from "./header"
-import "./layout.css"
+import "./css/layout.css"
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
@@ -36,9 +39,17 @@ const Layout = ({ children }) => {
       >
         <main>{children}</main>
         <footer>
-          © {new Date().getFullYear()}, Built with
-          {` `}
-          <a href="https://www.gatsbyjs.org">Gatsby</a>
+          © Kaitlin Huss {new Date().getFullYear()} | Built with <a href="https://www.gatsbyjs.org">
+            <img src={GatsbyIcon} className="copyright-icon" alt="GatsbyJS" /> 
+          </a>
+          , available on <a href="https://github.com/">
+            <img src={GithubIcon} className="copyright-icon" alt="GitHub" /> 
+          </a>
+          , deployed with <a href="https://www.netlify.com/">
+            <img src={NetlifyIcon} className="copyright-icon" alt="Netlify" /> 
+          </a>, to <a href="https://www.namecheap.com/">
+            <img src={NamecheapIcon} className="copyright-icon" alt="Namecheap" /> 
+          </a>. 
         </footer>
       </div>
     </>

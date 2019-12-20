@@ -1,3 +1,12 @@
+const {
+  NODE_ENV,
+  URL: NETLIFY_SITE_URL = 'https://kaitlinhuss.com/',
+  DEPLOY_PRIME_URL: NETLIFY_DEPLOY_URL = NETLIFY_SITE_URL,
+  CONTEXT: NETLIFY_ENV = NODE_ENV
+} = process.env;
+const isNetlifyProduction = NETLIFY_ENV === 'production';
+const siteUrl = isNetlifyProduction ? NETLIFY_SITE_URL : NETLIFY_DEPLOY_URL;
+
 module.exports = {
   siteMetadata: {
     title: `Kaitlin Huss Portfolio`,
@@ -8,9 +17,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        // The property ID; the tracking code won't be generated without it
         trackingId: "UA-154844783-1",
-        // Defines where to place the tracking script - `true` in the head and `false` in the body
         head: false,
       },
     },
@@ -47,5 +54,20 @@ module.exports = {
       }
     },
     `gatsby-plugin-smoothscroll`,
+    {
+      resolve: 'gatsby-plugin-robots-txt',
+      options: {
+        host: 'https://kaitlinhuss.com/',
+        sitemap: 'https://kaitlinhuss.com//sitemap.xml',
+        env: {
+          development: {
+            policy: [{ userAgent: '*', disallow: ['/'] }]
+          },
+          production: {
+            policy: [{ userAgent: '*', allow: '/' }]
+          }
+        }
+      }
+    }
   ],
 }

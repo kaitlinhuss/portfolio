@@ -12,6 +12,7 @@ module.exports = {
     title: `Kaitlin Huss Portfolio`,
     description: `Personal portfolio of Kaitlin Huss written in and made possible with GatsbyJS.`,
     author: `@gatsbyjs`,
+    siteUrl: `https://kaitlinhuss.com/`,
   },
   plugins: [
     {
@@ -68,6 +69,7 @@ module.exports = {
           }
         }
       }
-    }
+    },
+    `gatsby-plugin-sitemap`
   ],
 }

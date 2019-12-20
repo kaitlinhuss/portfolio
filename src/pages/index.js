@@ -9,6 +9,7 @@ import "../components/css/index.css"
 
 import { FaMapPin } from 'react-icons/fa';
 import { IconContext } from "react-icons";
+import { OutboundLink } from 'gatsby-plugin-google-analytics'
 
 const IndexPage = () => (
   <Layout>

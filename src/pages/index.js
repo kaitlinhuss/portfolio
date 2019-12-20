@@ -7,6 +7,9 @@ import SEO from "../components/seo"
 import KHLogo from '../images/kh-logo-bounce.svg'
 import "../components/css/index.css"
 
+import { FaMapPin } from 'react-icons/fa';
+import { IconContext } from "react-icons";
+
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
@@ -17,6 +20,10 @@ const IndexPage = () => (
       <a class="btn btn-outline-primary" href="#" target="_blank">Resume</a>
     </div>
     <p className="home-text">software developer</p>
+    <div className="container">
+      <p className="home-text"><FaMapPin />tampa, fl </p>
+    </div>
+    <div className="bottom"></div>
     <Link to="/page-2/">Go to page 2</Link>
   </Layout>
 )

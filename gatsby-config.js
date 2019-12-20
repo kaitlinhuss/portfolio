@@ -70,6 +70,20 @@ module.exports = {
         }
       }
     },
-    `gatsby-plugin-sitemap`
+    `gatsby-plugin-sitemap`,
+    {
+      resolve: `gatsby-plugin-scroll-indicator`,
+      options: {
+        color: '#24bae8',
+        zIndex: 9999,
+      },
+    },
+    {
+      resolve: `gatsby-plugin-nprogress`,
+      options: {
+        color: `#24bae8`,
+        showSpinner: false,
+      },
+    },
   ],
 }

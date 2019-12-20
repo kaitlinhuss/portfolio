@@ -12,7 +12,6 @@ import GatsbyIcon from '../images/gatsby-icon.png'
 import GithubIcon from '../images/github-icon.png'
 import NetlifyIcon from '../images/netlify-icon.png'
 import NamecheapIcon from '../images/namecheap-icon.png'
-import Header from "./header"
 import "./css/layout.css"
 
 const Layout = ({ children }) => {

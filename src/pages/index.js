@@ -10,12 +10,13 @@ import "../components/css/index.css"
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <img src={KHLogo} id="logo" alt="KH" /> 
+    <img src={KHLogo} id="logo" alt="KH"/> 
     <div className="container">
-      <button type="button" class="btn btn-outline-primary">LinkedIn</button>
-      <button type="button" class="btn btn-outline-primary">GitHub</button>
-      <button type="button" class="btn btn-outline-primary">Resume</button>
+      <a class="btn btn-outline-primary" href="https://www.linkedin.com/in/kaitlinhuss" target="_blank">LinkedIn</a>
+      <a class="btn btn-outline-primary" href="https://github.com/kaitlinhuss" target="_blank">GitHub</a>
+      <a class="btn btn-outline-primary" href="#" target="_blank">Resume</a>
     </div>
+    <p className="home-text">software developer</p>
     <Link to="/page-2/">Go to page 2</Link>
   </Layout>
 )

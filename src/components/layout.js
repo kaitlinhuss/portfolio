@@ -12,6 +12,7 @@ import GatsbyIcon from '../images/gatsby-icon.png'
 import GithubIcon from '../images/github-icon.png'
 import NetlifyIcon from '../images/netlify-icon.png'
 import NamecheapIcon from '../images/namecheap-icon.png'
+import { MdCopyright } from 'react-icons/md';
 import "./css/layout.css"
 
 const Layout = ({ children }) => {
@@ -36,7 +37,7 @@ const Layout = ({ children }) => {
       >
         <main>{children}</main>
         <footer>
-          © Kaitlin Huss {new Date().getFullYear()} | Built with <a href="https://www.gatsbyjs.org">
+        <MdCopyright /> Kaitlin Huss {new Date().getFullYear()} | Built with <a href="https://www.gatsbyjs.org">
             <img src={GatsbyIcon} className="copyright-icon" alt="GatsbyJS" /> 
           </a>
           , available on <a href="https://github.com/">

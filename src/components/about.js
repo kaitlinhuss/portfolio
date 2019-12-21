@@ -16,12 +16,11 @@ class About extends Section {
             paddingTop: 0,
             }}
         >
-      <p id="about"></p>
-      <h1>about</h1>
-      <hr class="divider"/>
-      <p id="about">A science-fiction nerd with an obsession for Stephen King novels. <FaBook /><br/>
-        I write code for a living, but I have a passion for writing short stories and photography.</p>
-      <button class="btn btn-outline-primary scrollup-btn" onClick={() => scrollTo('#top')}><IoMdArrowRoundUp /></button>
+          <p id="about"></p>
+          <h1>about</h1>
+          <hr class="divider"/>
+          <p id="about">A science-fiction nerd with an obsession for Stephen King novels. <FaBook /><br/>
+            I write code for a living, but I have a passion for writing short stories and photography.</p>
         </div>
       )
     }

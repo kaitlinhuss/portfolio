@@ -9,12 +9,13 @@ class Contact extends Section {
         <div
             style={{
             margin: `0 auto`,
-            maxWidth: 1200,
+            maxWidth: 2000,
             padding: `0px 1.0875rem 1.45rem`,
             paddingTop: 0,
             }}
         >
       <p id="contact"></p>
+      <h1>contact</h1>
       <p>CONTACT TEST Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Potenti nullam ac tortor vitae purus faucibus ornare. Magna sit amet purus gravida quis blandit turpis cursus in. Elementum nisi quis eleifend quam adipiscing vitae proin sagittis. Ultrices tincidunt arcu non sodales neque sodales ut. Habitasse platea dictumst vestibulum rhoncus est pellentesque. Eros donec ac odio tempor orci dapibus. Mauris ultrices eros in cursus turpis massa tincidunt dui. Sem viverra aliquet eget sit amet tellus cras. Tortor aliquam nulla facilisi cras fermentum odio eu. Mauris a diam maecenas sed enim. Curabitur gravida arcu ac tortor dignissim convallis aenean et. Metus aliquam eleifend mi in nulla posuere sollicitudin aliquam ultrices.
       Sed pulvinar proin gravida hendrerit. Venenatis cras sed felis eget velit aliquet sagittis id. Mauris nunc congue nisi vitae suscipit tellus mauris a diam. Dignissim diam quis enim lobortis scelerisque fermentum dui. Netus et malesuada fames ac turpis egestas integer eget aliquet. Placerat duis ultricies lacus sed turpis tincidunt id. Posuere morbi leo urna molestie at elementum. A condimentum vitae sapien pellentesque habitant morbi tristique. Nisi est sit amet facilisis magna etiam tempor orci. Ornare suspendisse sed nisi lacus sed viverra tellus. Et malesuada fames ac turpis egestas. Sociis natoque penatibus et magnis dis parturient montes. Nullam eget felis eget nunc. Tempus iaculis urna id volutpat lacus laoreet non. Viverra ipsum nunc aliquet bibendum enim facilisis gravida. Ante metus dictum at tempor commodo ullamcorper a. Nec ultrices dui sapien eget. Ipsum nunc aliquet bibendum enim facilisis gravida neque convallis a. Vehicula ipsum a arcu cursus vitae congue. Non curabitur gravida arcu ac tortor dignissim convallis aenean et.
       Amet volutpat consequat mauris nunc congue nisi. Sagittis nisl rhoncus mattis rhoncus urna neque viverra justo. Arcu odio ut sem nulla pharetra. Lectus proin nibh nisl condimentum id. Ac turpis egestas maecenas pharetra convallis posuere morbi leo. Faucibus interdum posuere lorem ipsum dolor. Elit ullamcorper dignissim cras tincidunt lobortis feugiat vivamus at. Id cursus metus aliquam eleifend mi. Mi sit amet mauris commodo quis imperdiet massa tincidunt nunc. Non odio euismod lacinia at quis. Bibendum arcu vitae elementum curabitur. Venenatis lectus magna fringilla urna porttitor rhoncus. At volutpat diam ut venenatis tellus in. Fringilla urna porttitor rhoncus dolor purus non enim praesent.

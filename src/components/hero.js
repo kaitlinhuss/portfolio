@@ -31,6 +31,7 @@ class Hero extends React.Component {
             <p id="top"></p>
                 <img src={KHLogo} id="logo" alt="Kaitlin Huss"/> 
                 <p className="home-text">software developer</p>
+                <p className="home-text">currently employed @ jpmorgan chase & co.</p>
                 <div className="container">
                 <p className="home-text"><FaMapPin />tampa, fl </p>
                 <p className="home-text" href="https://www.linkedin.com/in/kaitlinhuss" target="_blank"><FaLinkedin /> linkedin.com/in/kaitlinhuss</p>

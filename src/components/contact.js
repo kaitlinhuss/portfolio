@@ -18,7 +18,7 @@ class Contact extends Section {
     >
       <p id="contact"></p>
       <h1>contact</h1>
-      <hr class="divider"/>
+      <hr class="lg-divider "/>
       <p id="about">A science-fiction nerd with an obsession for Stephen King novels. <FaBook /><br/>
         I write code for a living, but I have a passion for writing short stories and photography.</p>
     </div>

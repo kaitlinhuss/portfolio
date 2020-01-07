@@ -10,9 +10,11 @@ import "../components/css/layout.css"
 import { FaMapPin } from 'react-icons/fa';
 import { FaLinkedin } from 'react-icons/fa';
 import { FaGithub } from 'react-icons/fa';
-import { MdPhoneIphone } from 'react-icons/md';
+import { MdEmail } from 'react-icons/md';
 import { MdPerson } from 'react-icons/md';
 import { FaCode } from 'react-icons/fa';
+import { FaKeyboard } from 'react-icons/fa';
+import { FaSuitcase } from 'react-icons/fa';
 import KHLogo from '../images/kh-logo-bounce.svg'
 import scrollTo from 'gatsby-plugin-smoothscroll';
 
@@ -30,15 +32,15 @@ class Hero extends React.Component {
           >
             <p id="top"></p>
                 <img src={KHLogo} id="logo" alt="Kaitlin Huss"/> 
-                <p className="home-text">software developer</p>
-                <p className="home-text">currently employed @ jpmorgan chase & co.</p>
                 <div className="container">
-                <p className="home-text"><FaMapPin />tampa, fl </p>
-                <p className="home-text" href="https://www.linkedin.com/in/kaitlinhuss" target="_blank"><FaLinkedin /> linkedin.com/in/kaitlinhuss</p>
-                <p className="home-text" href="https://github.com/kaitlinhuss" target="_blank"><FaGithub /> github.com/kaitlinhuss</p>
-                <button class="btn btn-outline-primary scrolldown-btn" onClick={() => scrollTo('#about')}><MdPerson /></button>
-                <button class="btn btn-outline-primary scrolldown-btn" onClick={() => scrollTo('#code')}><FaCode /></button>
-                <button class="btn btn-outline-primary scrolldown-btn" onClick={() => scrollTo('#contact')}><MdPhoneIphone /></button>
+                  <p className="hero-subheading"><FaKeyboard /> software developer</p>
+                  <p className="hero-subheading"><FaSuitcase /> currently @ jpmorgan chase &amp; co.</p>
+                  <p className="hero-subheading"><FaMapPin />tampa, fl </p>
+                  <p className="hero-subheading-link"><FaLinkedin /> linkedin.com/in/<a href="https://www.linkedin.com/in/kaitlinhuss" target="_blank" rel="noopener noreferrer">kaitlinhuss</a></p>
+                  <p className="hero-subheading-link"><FaGithub /> github.com/<a href="https://github.com/kaitlinhuss" target="_blank" rel="noopener noreferrer">kaitlinhuss</a></p>
+                  <button class="btn btn-outline-primary scrolldown-btn" onClick={() => scrollTo('#about')}><MdPerson /></button>
+                  <button class="btn btn-outline-primary scrolldown-btn" onClick={() => scrollTo('#code')}><FaCode /></button>
+                  <button class="btn btn-outline-primary scrolldown-btn" onClick={() => scrollTo('#contact')}><MdEmail /></button>
                 </div>
           </div>
         )

@@ -6,8 +6,9 @@ h1 {
     text-align: center;
 }
 body { 
-    background-color: #ffebde;
-    font-family: 'Roboto Condensed', sans-serif;
+    background-color: #ffebde !important;
+    font-family: 'Roboto Condensed', sans-serif !important;
+    font-size: 1rem !important;
 }
 #logo { 
     display: block;
@@ -41,11 +42,18 @@ body {
     text-align: center;
     margin-bottom: 9em;
 }
-.home-text { 
+.hero-subheading { 
     color: #24bae8;
     font-family: 'Roboto Condensed', sans-serif;
     text-align: center;
     margin-bottom: 0.5em;
+}
+.hero-subheading-link { 
+    color: #24bae8;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: center;
+    margin-bottom: 0.5em !important;
+    line-height: 1.4285em;
 }
 a { 
     color: #24bae8;

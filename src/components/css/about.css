@@ -1,13 +1,45 @@
 h1 { 
     color: #24bae8; 
+    margin-top: 0.5rem;
 }
 #about { 
-    color: #24bae8;
     text-align: center;
+    font-size: 0.9rem; 
 }
-.divider { 
+.lg-divider { 
     margin: 1rem auto;
     background-color: #24bae8;
     height: 2px;
     width: 5%;
+}
+.sm-divider { 
+    margin: 1rem auto;
+    background-color: #24bae8;
+    height: 2px;
+    width: 2%;
+}
+.tab-content-one { 
+    font-size: 0.9rem; 
+    padding: 30px;
+}
+.tab-content-two { 
+    font-size: 0.9rem; 
+    padding: 30px;
+}
+.tab-content-three { 
+    font-size: 0.9rem; 
+    padding: 30px;
+}
+.rwt__tabs { 
+    width: 70%;
+    margin: auto;
+}
+.rwt__tablist .rwt__tab:after {
+    right: -1px;
+    top: 0;
+    height: 100%;
+    border-right: 3px solid #24bae8 !important;
+}
+.rwt__tab {
+    color: #24bae8;
 }

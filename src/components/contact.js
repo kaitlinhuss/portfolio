@@ -1,7 +1,5 @@
 import React from "react"
 import Section from "./section"
-import scrollTo from 'gatsby-plugin-smoothscroll';
-import { IoMdArrowRoundUp } from 'react-icons/io';
 import { FaBook } from 'react-icons/fa';
 import "../components/css/about.css"
 

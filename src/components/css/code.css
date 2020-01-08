@@ -1,13 +1,28 @@
 h1 { 
     color: #24bae8; 
+    margin-top: 0.5rem;
 }
 #code { 
-    color: #24bae8;
     text-align: center;
+    font-size: 0.9rem; 
 }
 .lg-divider  { 
     margin: 1rem auto;
     background-color: #24bae8;
     height: 2px;
     width: 5%;
+}
+.sm-divider { 
+    margin: 1rem auto;
+    background-color: #24bae8;
+    height: 2px;
+    width: 2%;
+}
+.card-text {
+    font-size: 0.8rem;
+}
+.card-img-top {
+    width: 100%;
+    height: 25vw;
+    object-fit: cover;
 }

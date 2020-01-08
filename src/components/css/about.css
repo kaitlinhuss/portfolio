@@ -20,26 +20,26 @@ h1 {
 }
 .tab-content-one { 
     font-size: 0.9rem; 
-    padding: 30px;
+    padding: 20px;
 }
 .tab-content-two { 
     font-size: 0.9rem; 
-    padding: 30px;
+    padding: 20px;
 }
 .tab-content-three { 
     font-size: 0.9rem; 
-    padding: 30px;
+    padding: 20px;
 }
-.rwt__tabs { 
-    width: 70%;
+div.row { 
     margin: auto;
+    width: 70%;
+    padding: 10px;
 }
-.rwt__tablist .rwt__tab:after {
-    right: -1px;
-    top: 0;
-    height: 100%;
-    border-right: 3px solid #24bae8 !important;
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #fff;
+    background-color: #24bae8 !important;
 }
-.rwt__tab {
-    color: #24bae8;
+.tab-content>.active {
+    background-color: white;
+    border-radius: .25rem;
 }

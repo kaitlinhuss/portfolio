@@ -1,6 +1,5 @@
 import React from "react"
 import Section from "./section"
-import { FaBook } from 'react-icons/fa';
 import "../components/css/code.css"
 
 import Card from 'react-bootstrap/Card'
@@ -10,7 +9,6 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Portfolio2019 from '../images/portfolio-2019.png'
 import Portfolio2017 from '../images/portfolio-2017.png'
 import StudentLoanCalculator from '../images/student-loan-calculator.png'
-import GatsbyIcon from '../images/gatsby-icon.png'
 import { FaReact } from 'react-icons/fa';
 import { FaAngular } from 'react-icons/fa';
 import { FaBootstrap } from 'react-icons/fa';

@@ -23,6 +23,7 @@ body {
     border-color: #24bae8;
     margin: 1em;
     outline: none;
+    background-color: white;
 }
 .btn-outline-primary:hover {
     color: #fff;

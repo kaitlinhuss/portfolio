@@ -19,29 +19,6 @@ class Contact extends Section {
       <hr class="lg-divider "/>
       <p id="about">A science-fiction nerd with an obsession for Stephen King novels. <FaBook /><br/>
         I write code for a living, but I have a passion for writing short stories and photography.</p>
-
-        <form name="test-contact" method="POST" data-netlify="true">
-          <p>
-            <label>Your Name: <input type="text" name="name" /></label>   
-          </p>
-          <p>
-            <label>Your Email: <input type="email" name="email" /></label>
-          </p>
-          <p>
-            <label>Your Role: <select name="role[]" multiple>
-              <option value="leader">Leader</option>
-              <option value="follower">Follower</option>
-            </select></label>
-          </p>
-          <p>
-            <label>Message: <textarea name="message"></textarea></label>
-          </p>
-          <p>
-            <button type="submit">Send</button>
-          </p>
-        </form>
-
-
     </div>
       )
     }

@@ -1,4 +1,7 @@
 import React from 'react'
+import { FaMobileAlt } from 'react-icons/fa';
+import { MdEmail } from 'react-icons/md';
+import ReCAPTCHA from "react-google-recaptcha";
 import "../components/css/about.css"
 
 const Contact = (props) => (
@@ -13,12 +16,18 @@ const Contact = (props) => (
     <p id="contact"></p>
     <h1>contact</h1>
     <hr class="lg-divider "/>
+
+    <div className="container">
+        <p className="hero-subheading"><MdEmail /> kaitlinhuss@gmail.com</p>
+        <p className="hero-subheading"><FaMobileAlt /> (239) 443-0763</p>
+    </div>
+
     <section id="contact">
         <div className="inner">
           <section>
-          <form name="contact" method="post" action="/success" data-netlify="true" data-netlify-honeypot="bot-field">
-          <input type="hidden" name="bot-field" />
-          <input type="hidden" name="form-name" value="contact" />
+            <form name="contact" method="post" action="/success" data-netlify="true" data-netlify-honeypot="bot-field" data-netlify-recaptcha='true'>
+                <input type="hidden" name="bot-field" />
+                <input type="hidden" name="form-name" value="contact" />
                   <div className="field half first">
                       <label htmlFor="name">Name</label>
                       <input type="text" name="name" id="name" />
@@ -31,36 +40,12 @@ const Contact = (props) => (
                       <label htmlFor="message">Message</label>
                       <textarea name="message" id="message" rows="6"></textarea>
                   </div>
+                  <ReCAPTCHA sitekey={process.env.GATSBY_RECAPTCHA_KEY} />
                   <ul className="actions">
                       <li><input type="submit" value="Send Message" className="special" /></li>
                       <li><input type="reset" value="Clear" /></li>
                   </ul>
               </form>
-          </section>
-          <section className="split">
-              <section>
-                  <div className="contact-method">
-                      <span className="icon alt fa-envelope"></span>
-                      <h3>Email</h3>
-                      <a href="#">information@untitled.tld</a>
-                  </div>
-              </section>
-              <section>
-                  <div className="contact-method">
-                      <span className="icon alt fa-phone"></span>
-                      <h3>Phone</h3>
-                      <span>(000) 000-0000 x12387</span>
-                  </div>
-              </section>
-              <section>
-                  <div className="contact-method">
-                      <span className="icon alt fa-home"></span>
-                      <h3>Address</h3>
-                      <span>1234 Somewhere Road #5432<br />
-                      Nashville, TN 00000<br />
-                      United States of America</span>
-                  </div>
-              </section>
           </section>
         </div>
     </section>

@@ -4,6 +4,8 @@ import { MdEmail } from 'react-icons/md';
 import ReCAPTCHA from "react-google-recaptcha";
 import "../components/css/about.css"
 
+const RECAPTCHA_KEY = process.env.SITE_RECAPTCHA_KEY;
+
 const Contact = (props) => (
   <div
     style={{
@@ -40,7 +42,7 @@ const Contact = (props) => (
                       <label htmlFor="message">Message</label>
                       <textarea name="message" id="message" rows="6"></textarea>
                   </div>
-                  <ReCAPTCHA sitekey={process.env.GATSBY_RECAPTCHA_KEY} />
+                  <ReCAPTCHA sitekey={RECAPTCHA_KEY} />
                   <ul className="actions">
                       <li><input type="submit" value="Send Message" className="special" /></li>
                       <li><input type="reset" value="Clear" /></li>

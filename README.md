@@ -1,4 +1,5 @@
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
+[![Netlify Status](https://api.netlify.com/api/v1/badges/2622bfd3-72c4-4cfa-b06b-b9b3b92d23e1/deploy-status)](https://app.netlify.com/sites/quirky-stonebraker-270cfd/deploys)
 <p align="center">
   <a href="https://www.gatsbyjs.org">
     <img alt="Gatsby" src="https://www.gatsbyjs.org/monogram.svg" width="60" />

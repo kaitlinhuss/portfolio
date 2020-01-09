@@ -40,7 +40,7 @@ const Contact = (props) => (
                       <label htmlFor="message">Message</label>
                       <textarea name="message" id="message" rows="6"></textarea>
                   </div>
-                  <ReCAPTCHA sitekey="6Lcq9M0UAAAAAE8S7ioO27_dxWiG1iqn7j5Bakkd" />
+                  <ReCAPTCHA sitekey={process.env.GATSBY_RECAPTCHA_KEY} />
                   <ul className="actions">
                       <li><input type="submit" value="Send Message" className="special" /></li>
                       <li><input type="reset" value="Clear" /></li>

@@ -10,8 +10,8 @@ import "../components/css/layout.css"
 import { FaMapPin } from 'react-icons/fa';
 import { FaLinkedin } from 'react-icons/fa';
 import { FaGithub } from 'react-icons/fa';
-import { MdEmail } from 'react-icons/md';
-import { MdPerson } from 'react-icons/md';
+import { IoMdContact } from "react-icons/io";
+import { IoMdHand } from 'react-icons/io';
 import { FaCode } from 'react-icons/fa';
 import { FaKeyboard } from 'react-icons/fa';
 import { FaSuitcase } from 'react-icons/fa';
@@ -38,9 +38,9 @@ class Hero extends React.Component {
                   <p className="hero-subheading"><FaMapPin />tampa, fl </p>
                   <p className="hero-subheading-link"><FaLinkedin /> linkedin.com/in/<a href="https://www.linkedin.com/in/kaitlinhuss" target="_blank" rel="noopener noreferrer">kaitlinhuss</a></p>
                   <p className="hero-subheading-link"><FaGithub /> github.com/<a href="https://github.com/kaitlinhuss" target="_blank" rel="noopener noreferrer">kaitlinhuss</a></p>
-                  <button class="btn btn-outline-primary scrolldown-btn" onClick={() => scrollTo('#about')}><MdPerson /></button>
+                  <button class="btn btn-outline-primary scrolldown-btn" onClick={() => scrollTo('#about')}><IoMdHand /></button>
                   <button class="btn btn-outline-primary scrolldown-btn" onClick={() => scrollTo('#code')}><FaCode /></button>
-                  <button class="btn btn-outline-primary scrolldown-btn" onClick={() => scrollTo('#contact')}><MdEmail /></button>
+                  <button class="btn btn-outline-primary scrolldown-btn" onClick={() => scrollTo('#contact')}><IoMdContact /></button>
                 </div>
           </div>
         )

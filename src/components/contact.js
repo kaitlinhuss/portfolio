@@ -40,7 +40,7 @@ const Contact = (props) => (
               </div>
               <div class="row">
                 <div class="col">
-                  <textarea class="form-control" placeholder="Message" id="message" rows="3"></textarea>
+                  <textarea class="form-control" placeholder="Message" name="message" id="message" rows="3"></textarea>
                 </div>
               </div>
               <div class="row">

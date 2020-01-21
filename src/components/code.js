@@ -14,6 +14,8 @@ import { FaAngular } from 'react-icons/fa';
 import { FaBootstrap } from 'react-icons/fa';
 import { DiJavascript } from 'react-icons/di';
 import { DiJqueryLogo } from 'react-icons/di';
+import { FaArrowDown } from 'react-icons/fa';
+import scrollTo from 'gatsby-plugin-smoothscroll';
 
 class Code extends Section {
     render() {
@@ -22,14 +24,14 @@ class Code extends Section {
             style={{
             margin: `0 auto`,
             maxWidth: 2000,
-            padding: `0px 1.0875rem 1.45rem`,
+            padding: `10rem 1.0875rem 10rem`,
             paddingTop: 0,
             }}
         >
           <p id="code"></p>
           <h1>code</h1>
           <hr class="lg-divider"/>
-          <p id="about">A few projects that I've been working on lately.</p>
+          <p id="code-text">A few projects that I've been working on lately.</p>
           <hr class="sm-divider"/>
             <CardDeck>
             <Card>
@@ -81,10 +83,9 @@ class Code extends Section {
               </Card.Footer>
             </Card>
           </CardDeck>
-
-
-
-
+          <div className="container">
+              <button class="btn btn-outline-primary scrolldown-btn" onClick={() => scrollTo('#contact')}><FaArrowDown /></button>
+            </div>
         </div>
       )
     }

@@ -2,12 +2,15 @@ h1 {
     color: #24bae8; 
 }
 #contact { 
-    color: #24bae8;
     text-align: center;
+    font-size: 0.9rem; 
 }
 .lg-divider  { 
     margin: 1rem auto;
     background-color: #24bae8;
     height: 2px;
     width: 5%;
+}
+.comtact-container { 
+    margin-bottom: 0em;
 }

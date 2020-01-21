@@ -15,6 +15,7 @@ import { IoMdHand } from 'react-icons/io';
 import { FaCode } from 'react-icons/fa';
 import { FaKeyboard } from 'react-icons/fa';
 import { FaSuitcase } from 'react-icons/fa';
+import { FaArrowDown } from 'react-icons/fa';
 import KHLogo from '../images/kh-logo-bounce.svg'
 import scrollTo from 'gatsby-plugin-smoothscroll';
 

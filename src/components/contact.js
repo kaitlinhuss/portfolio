@@ -1,6 +1,4 @@
 import React from 'react'
-import { FaMobileAlt } from 'react-icons/fa';
-import { MdEmail } from 'react-icons/md';
 import ReCAPTCHA from "react-google-recaptcha";
 import "../components/css/contact.css"
 

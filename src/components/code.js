@@ -4,7 +4,6 @@ import "../components/css/code.css"
 
 import Card from 'react-bootstrap/Card'
 import CardDeck from 'react-bootstrap/CardDeck'
-import Button from 'react-bootstrap/Button'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Portfolio2019 from '../images/portfolio-2019.png'
 import Portfolio2017 from '../images/portfolio-2017.png'

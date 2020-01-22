@@ -1,10 +1,10 @@
 import React from "react"
 import Section from "./section"
-import "../components/css/about.css"
 import Tab from 'react-bootstrap/Tab'
 import Nav from 'react-bootstrap/Nav'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
+import "../components/css/about.css"
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { FaArrowDown } from 'react-icons/fa';
 
@@ -79,4 +79,4 @@ including React and SASS. I'm excited about diving into the world of API design 
     }
   }
 
-  export default About
+export default About

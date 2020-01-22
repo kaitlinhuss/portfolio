@@ -4,7 +4,7 @@
 [![Netlify Status](https://api.netlify.com/api/v1/badges/2622bfd3-72c4-4cfa-b06b-b9b3b92d23e1/deploy-status)](https://app.netlify.com/sites/quirky-stonebraker-270cfd/deploys)
 
 <a href="https://kaitlinhuss.com/">
-  <img alt="Kaitlin Huss Portfolio" src="src/images/kh-logo-bounce.svg" width="60" />
+  <img alt="Kaitlin Huss Portfolio" src="src/images/kh-logo-bounce.svg" width="30%" />
 </a>
 
 ## Getting Started

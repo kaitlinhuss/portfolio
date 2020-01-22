@@ -2,8 +2,13 @@ h1 {
     color: #24bae8; 
 }
 #contact { 
+    margin-top: 2rem;
+    padding-top: 20px;
+}
+#contact-text { 
     text-align: center;
     font-size: 0.9rem; 
+    margin-top: 1rem;
 }
 .lg-divider  { 
     margin: 1rem auto;
@@ -13,4 +18,9 @@ h1 {
 }
 .comtact-container { 
     margin-bottom: 0em;
+}
+.center-btn { 
+    display: block;
+    margin-left: auto !important;
+    margin-right: auto !important;
 }

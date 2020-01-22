@@ -4,17 +4,17 @@ import "../components/css/contact.css"
 
 const Contact = (props) => (
   <div
-    style={{
+      style={{
       margin: `0 auto`,
       maxWidth: 2000,
-      padding: `0px 1.0875rem 1.45rem`,
+      padding: `10rem 1.0875rem 10rem`,
       paddingTop: 0,
-    }}
+      }}
   >
     <p id="contact"></p>
     <h1>contact</h1>
     <hr class="lg-divider "/>
-    <p id="contact"> Let's get in touch!</p>
+    <p id="contact-text"> Let's get in touch!</p>
     <hr class="sm-divider"/>
 
     <section id="contact">
@@ -48,10 +48,10 @@ const Contact = (props) => (
               </div>
               <div class="row">
                 <div class="col">
-                  <button type="submit" value="Submit" class="btn btn-primary">Submit</button>
+                  <button type="submit" value="Submit" class="btn btn-outline-primary center-btn">Submit</button>
                 </div>
                 <div class="col">
-                  <button type="reset" value="Clear" class="btn btn-secondary">Clear</button>
+                  <button type="reset" value="Clear" class="btn btn-outline-secondary center-btn">Clear</button>
                 </div>
               </div>
             </form>

@@ -20,7 +20,10 @@ h1 {
     margin-bottom: 0em;
 }
 .center-btn { 
-    display: block;
+    display: block !important;
     margin-left: auto !important;
     margin-right: auto !important;
+}
+.btn-outline-secondary {
+    margin: 1em;
 }
